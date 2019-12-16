@@ -1,0 +1,19 @@
+
+
+.hearderformat {
+    height: 150px;
+    width: 100px;
+}
+
+.banner-image {
+   /* width: 100%;
+    height: auto; */
+   
+    background: url("../images/Banner.jpg");
+   /*
+    background-repeat: no-repeat; */
+    background-size: cover; 
+    color: red;
+   
+
+}
