@@ -1,19 +1,67 @@
 
+body {margin: 20px;}
 
-.hearderformat {
-    height: 150px;
-    width: 100px;
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+.headerformat {
+  
+    height: 100px;
+    width: 100%;
+    background-color: #000000;  
+    border-bottom: 1px solid white;
 }
+
+.title-format {
+    font-family: "Roboto", 'Trebuchet MS';
+    font-weight: 100;
+    color: whitesmoke;
+}
+
 
 .banner-image {
-   /* width: 100%;
-    height: auto; */
+    
+    max-width: 100%;
+    width: 100%;
+    height: 100vh; 
    
-    background: url("../images/Banner.jpg");
-   /*
-    background-repeat: no-repeat; */
+    background: url("../images/Banner.jpg") no-repeat center center;
+    position: relative;
+    display: flex;
     background-size: cover; 
-    color: red;
-   
-
+      
 }
+
+
+#cover-text{
+    text-transform: uppercase;
+    font-family: Oswald;
+    color: #ffffff;
+    background-color: rgba(29, 27, 26, 0.9);
+    padding: 20 50 30 15;
+   
+    
+    letter-spacing: 4px;
+    position:absolute;
+
+  top: 70%;
+  left: 5%;
+  width: 90%;
+  height: 20%;
+  overflow: hidden;   
+}
+
+.Cap-text {
+    
+    text-align: center;
+    font-size: 130%;
+}
+
+#cover-text > p {
+    color:white;
+    font-weight: 200;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
