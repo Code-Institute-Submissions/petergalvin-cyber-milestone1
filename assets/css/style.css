@@ -28,10 +28,14 @@ body {margin: 20px;}
     background: url("../images/Banner.jpg") no-repeat center center;
     position: relative;
     display: flex;
-    background-size: cover; 
-      
+    background-size: cover;     
 }
 
+.timetable-bk {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
 
 #cover-text{
     text-transform: uppercase;
@@ -41,14 +45,14 @@ body {margin: 20px;}
     padding: 20 50 30 15;
    
     
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     position:absolute;
 
-  top: 70%;
+  top: 55%;
   left: 5%;
   width: 90%;
-  height: 20%;
-  overflow: hidden;   
+  height: 30%;
+  overflow: auto;   
 }
 
 .Cap-text {
@@ -59,9 +63,12 @@ body {margin: 20px;}
 
 #cover-text > p {
     color:white;
-    font-weight: 200;
+  
     margin: 0px;
     padding: 0px;
     
 }
+
+
+
 
