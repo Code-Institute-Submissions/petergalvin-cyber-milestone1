@@ -69,6 +69,12 @@ body {margin: 20px;}
     
 }
 
+.card-styling {
+    background-color: black
+}
 
+.card-styling  p {
+    font-size: 0.9em
+}
 
 
