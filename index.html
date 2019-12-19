@@ -10,12 +10,16 @@
 		type="text/css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 		type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
 
 	<title>Gym</title>
 </head>
 
 <body>
+
+<!-- Bootstrap collapsing NavBar
+     Nav bar points to 4 pages and collapses to the toggler icon for mobiles screens-->
+
 
 	<nav class="navbar navbar-dark navbar-expand-sm bg-dark">
 
@@ -32,7 +36,7 @@
 				<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="SignUp.html">Join Us!</a></li>
 			</ul>
 		</div>
-		<div class="d-block">   <!-- "d-none d-md-block -->
+		<div class="d-block">   <!-- Always displays the Join Us button irrespective of screen size -->
 		
 			<a class="btn btn-primary btn-lg" href="SignUp.html" role="button">Join Us!</a>
 		</div>
@@ -41,9 +45,9 @@
 
 
 	<header class="container-fluid no-gutters">
-		<!-- <div class="container-fluid"> -->
+                                     <!-- Bootstrap Fluid container, no padding between blocks -->
 		<div class="row headerformat">
-			<div class="col title-format">
+			<div class="col name-format">
 			   <div class="contact-details">
 				    <h1>Perfection Fitness</h1>
                     <h4>Perfect Body. Perfect Life.</h4> 
@@ -54,7 +58,7 @@
                    <li>No.6 Angel Tower</li>
                    <li>Islington</li>
                    <li>London EC4 5LT</li>
-                   <li> Right opposite Angel Tube</li>
+                   <li>Right opposite Angel Tube</li>
                  </ul>
                 </div> 
                </div>   	
@@ -68,7 +72,7 @@
 		<div class="row no-gutters text-center">
 			<div class="col" id="cover-text">
 				<h2>PAIN is the REMEDY</h2> 
-                <h2 class="title-format">Perfection Fitness</h2>
+                <h2 class="name-format">Perfection Fitness</h2>
                 <ul class="head-addr text-center">
                    <li>No.6 Angel Tower</li>
                    <li>Islington</li>
@@ -82,7 +86,18 @@
 	</section>
 
 	<footer>
-
+    <i class="fas fa-tty" aria-hidden="true"></i>
+         <div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12 p-0 footer-format">
+                        <ul class="list-inline p-0">
+                          <li class="list-inline-item">Contact:</li>
+                          <li class="list-inline-item"><i class="fas fa-tty" aria-hidden="true"></i> Tel: +44 203 7234 2215</li>
+                          <li class="list-inline-item"> Email: info@perfection.co.uk</li>                                         
+                        </ul>  
+                    </div>
+				</div>
+			</div>
 
 	</footer>
 

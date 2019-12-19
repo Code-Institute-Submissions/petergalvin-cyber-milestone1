@@ -1,9 +1,9 @@
 
-body {margin: 20px;}
+body {margin: 10px;}
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
+/* ------------------------------------------ Header Format ---------------------------------------------------*/
 .headerformat {
   
     height: 100%;
@@ -14,33 +14,53 @@ body {margin: 20px;}
       
 }
 
-.title-format {
+
+      /* Format the Gym name */
+.name-format {
     font-family: "Roboto", 'Trebuchet MS';
     font-weight: 100;
     color: whitesmoke;
     
 }
 
+
+      /* Enable Club Address to be alongside club name */
 .contact-details {
    display:inline-block;
    padding-left: 0;
    }
 
+      /* Remove the bullets from the address list */ 
 .contact-details li {
     list-style-type: none;
     text-decoration: none;
     font-size: 0.8em; 
     }   
 
+
+      /* Remove the bullets from the header address list */ 
 .head-addr {
     list-style-type: none;
     text-decoration: none;
     font-size: 0.8em; 
     } 
 
+        /* Format the footer text */
+.footer-format {
+    background-color: black;
+    color: white;
+    font-size: 0.9em;
+    margin: 0; 
+}
+        /* Remove the bullets from the footer address list */ 
+.footer-format li {
+    list-style-type: none;
+    text-decoration: none;  
+}
 
-.banner-image {
-    
+
+        /* Import Banner image and display across the whole screen */ 
+.banner-image { 
     max-width: 100%;
     width: 100%;
     height: 100vh; 
@@ -52,14 +72,17 @@ body {margin: 20px;}
     overflow: hidden; 
 }
 
+
+       /* For timetable html, remove padding and margin with black background */
 .timetable-bk {
     margin: 0;
     padding: 0;
     background-color: black;
 }
 
+        /* Index page cover text formatting */
 #cover-text{
-    /* text-transform: uppercase; */
+    
     font-family: "Roboto";
     color: #ffffff;
     background-color: rgba(29, 27, 26, 0.3);
@@ -77,10 +100,9 @@ body {margin: 20px;}
 }
 
 
-
+         /* Format children paragraphs in cover page text */ 
 #cover-text > p {
     color:white;
-  
     margin: 0px;
     padding: 0px;
     
