@@ -6,17 +6,37 @@ body {margin: 20px;}
 
 .headerformat {
   
-    height: 100px;
-    width: 100%;
+    height: 100%;
+    min-width: 100%;
     background-color: #000000;  
-    border-bottom: 1px solid white;
+   
+    border-bottom: 1px solid white; 
+      
 }
 
 .title-format {
     font-family: "Roboto", 'Trebuchet MS';
     font-weight: 100;
     color: whitesmoke;
+    
 }
+
+.contact-details {
+   display:inline-block;
+   padding-left: 0;
+   }
+
+.contact-details li {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 0.8em; 
+    }   
+
+.head-addr {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 0.8em; 
+    } 
 
 
 .banner-image {
@@ -28,7 +48,8 @@ body {margin: 20px;}
     background: url("../images/Banner.jpg") no-repeat center center;
     position: relative;
     display: flex;
-    background-size: cover;     
+    background-size: cover;    
+    overflow: hidden; 
 }
 
 .timetable-bk {
@@ -38,8 +59,8 @@ body {margin: 20px;}
 }
 
 #cover-text{
-    text-transform: uppercase;
-    font-family: Oswald;
+    /* text-transform: uppercase; */
+    font-family: "Roboto";
     color: #ffffff;
     background-color: rgba(29, 27, 26, 0.3);
     padding: 20 50 30 15;
@@ -51,7 +72,7 @@ body {margin: 20px;}
   top: 55%;
   left: 5%;
   width: 90%;
-  height: 30%;
+  height: 40%;
   overflow: auto;   
 }
 
@@ -81,10 +102,43 @@ body {margin: 20px;}
 
 }
 
+
+
+form {
+    font-family: "Roboto", 'Trebuchet MS';
+    font-weight: 100;
+   
+    
+}
+
+.form-styling {
+    background-color: black;
+    color: white;
+    height: 100vh;
+   letter-spacing: 1px;
+ 
+   
+}
+
+.form-head-mg {
+background-color: black;
+margin-bottom: 3em;
+color:white;
+
+}
+
+.Concept-bk-style {
+    background-color: black;
+    height: 100vh;
+}
+
 .Concept-head-styling {
     background-color: black;
     color: White;
     text-align: center;
     padding: 5px;
-    
 }
+
+
+
+
