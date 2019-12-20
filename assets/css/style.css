@@ -126,7 +126,6 @@ body {margin: 10px;}
 form {
     font-family: "Roboto", 'Trebuchet MS';
     font-weight: 100;
-   
     
 }
 
@@ -134,15 +133,13 @@ form {
     background-color: black;
     color: white;
     height: auto;
-   letter-spacing: 1px;
-   
+   letter-spacing: 1px;  
 }
 
 .form-head-mg {
 background-color: black;
 margin-bottom: 3em;
 color:white;
-
 }
 
 
@@ -165,11 +162,11 @@ color:white;
     color: White;
     text-align: center;
     padding: 5px;
-
 }
+
 /* ----------------------------------------- Timetable page styling -------------------------------------------*/
 
-       /* For timetable html, remove padding and margin with black background */
+                        /* For timetable html, remove padding and margin with black background */
 .timetable-bk {
     margin: 0;
     padding: 0;
