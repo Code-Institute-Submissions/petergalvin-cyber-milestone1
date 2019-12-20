@@ -45,6 +45,7 @@ body {margin: 10px;}
     font-size: 0.8em; 
     } 
 
+/* ----------------------------------------- Footer Format ----------------------------------------------------*/
         /* Format the footer text */
 .footer-format {
     background-color: black;
@@ -58,6 +59,7 @@ body {margin: 10px;}
     text-decoration: none;  
 }
 
+/* ----------------------------------------------- Index Page Foramt ---------------------------------------------*/
 
         /* Import Banner image and display across the whole screen */ 
 .banner-image { 
@@ -73,14 +75,7 @@ body {margin: 10px;}
 }
 
 
-       /* For timetable html, remove padding and margin with black background */
-.timetable-bk {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-}
-
-        /* Index page cover text formatting */
+                           /* Index page cover text formatting */
 #cover-text{
     
     font-family: "Roboto";
@@ -100,13 +95,15 @@ body {margin: 10px;}
 }
 
 
-         /* Format children paragraphs in cover page text */ 
+                             /* Format address paragraphs in cover page text */ 
 #cover-text > p {
     color:white;
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px;   
 }
+
+/* ----------------------------------------- Trainer Page styling -------------------------------------------*/
+
 
 .card-styling {
     background-color: black
@@ -116,7 +113,7 @@ body {margin: 10px;}
     font-size: 0.9em
 }
 
-.main-head-styling {
+.trainer-main-head-styling {
     background-color: black;
     color: White;
     text-align: center;
@@ -124,7 +121,7 @@ body {margin: 10px;}
 
 }
 
-
+/* ----------------------------------------- Sign Up form styling -------------------------------------------*/
 
 form {
     font-family: "Roboto", 'Trebuchet MS';
@@ -136,9 +133,8 @@ form {
 .form-styling {
     background-color: black;
     color: white;
-    height: 100vh;
+    height: auto;
    letter-spacing: 1px;
- 
    
 }
 
@@ -148,6 +144,9 @@ margin-bottom: 3em;
 color:white;
 
 }
+
+
+/* ----------------------------------------- Concept page styling -------------------------------------------*/
 
 .Concept-bk-style {
     background-color: black;
@@ -161,6 +160,20 @@ color:white;
     padding: 5px;
 }
 
+.Concept-main-head-styling {
+    background-color: black;
+    color: White;
+    text-align: center;
+    padding: 5px;
 
+}
+/* ----------------------------------------- Timetable page styling -------------------------------------------*/
+
+       /* For timetable html, remove padding and margin with black background */
+.timetable-bk {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
 
 
