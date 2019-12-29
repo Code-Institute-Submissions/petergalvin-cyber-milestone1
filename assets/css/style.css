@@ -1,5 +1,7 @@
 
-body {margin: 10px;}
+html,body {
+    height:100%;
+    margin: 10px;}
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
@@ -18,7 +20,7 @@ body {margin: 10px;}
       /* Format the Gym name */
 .name-format {
     font-family: "Roboto", 'Trebuchet MS';
-    font-weight: 100;
+    font-weight: 500;
     color: whitesmoke;
     
 }
@@ -39,7 +41,8 @@ body {margin: 10px;}
 
 
       /* Remove the bullets from the header address list */ 
-.head-addr {
+.heading-addr {
+    font-weight: 900;
     list-style-type: none;
     text-decoration: none;
     font-size: 0.8em; 
@@ -65,11 +68,13 @@ body {margin: 10px;}
 .banner-image { 
     max-width: 100%;
     width: 100%;
-    height: 100vh; 
+    height: 100%; 
    
     background: url("../images/Banner.jpg") no-repeat center center;
     position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-size: cover;    
     overflow: hidden; 
 }
@@ -80,18 +85,24 @@ body {margin: 10px;}
     
     font-family: "Roboto";
     color: #ffffff;
-    background-color: rgba(29, 27, 26, 0.3);
+    background-color: rgba(29, 27, 26, 0.2);
     padding: 20 50 30 15;
    
     
     letter-spacing: 3px;
-    position:absolute;
+    width:100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /* justify-content: center; */
+   /* position:absolute;
 
   top: 55%;
   left: 5%;
   width: 90%;
   height: 40%;
-  overflow: auto;   
+  overflow: auto;   */
 }
 
 
@@ -147,7 +158,7 @@ color:white;
 
 .Concept-bk-style {
     background-color: black;
-    height: 100vh;
+    /*height: 100%;*/
 }
 
 .Concept-head-styling {
