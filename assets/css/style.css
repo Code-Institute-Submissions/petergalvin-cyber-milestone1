@@ -7,15 +7,12 @@ html,body {
 
 /* ------------------------------------------ Header Format ---------------------------------------------------*/
 .headerformat {
-  
     height: 100%;
     min-width: 100%;
     background-color: #000000;  
    
-    border-bottom: 1px solid white; 
-      
+    border-bottom: 1px solid white;       
 }
-
 
       /* Format the Gym name */
 .name-format {
@@ -28,6 +25,7 @@ html,body {
 
       /* Enable Club Address to be alongside club name */
 .contact-details {
+    
    display:inline-block;
    padding-left: 0;
    }
@@ -39,14 +37,6 @@ html,body {
     font-size: 0.8em; 
     }   
 
-
-      /* Remove the bullets from the header address list */ 
-.heading-addr {
-    font-weight: 900;
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 0.8em; 
-    } 
 
 /* ----------------------------------------- Footer Format ----------------------------------------------------*/
         /* Format the footer text */
@@ -79,15 +69,20 @@ html,body {
     overflow: hidden; 
 }
 
+      /* Remove the bullets from the header address list */ 
+.heading-addr {
+    font-weight: 900;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 0.8em; 
+    } 
 
                            /* Index page cover text formatting */
 #cover-text{
     
     font-family: "Roboto";
     color: #ffffff;
-    background-color: rgba(29, 27, 26, 0.2);
-    padding: 20 50 30 15;
-   
+    background-color: rgba(29, 27, 26, 0.9);
     
     letter-spacing: 3px;
     width:100%;
@@ -95,14 +90,7 @@ html,body {
     display: flex;
     flex-direction: column;
     align-items: center;
-   /* justify-content: center; */
-   /* position:absolute;
-
-  top: 55%;
-  left: 5%;
-  width: 90%;
-  height: 40%;
-  overflow: auto;   */
+    padding-bottom: 10px;
 }
 
 
@@ -177,11 +165,11 @@ color:white;
 
 /* ----------------------------------------- Timetable page styling -------------------------------------------*/
 
-                        /* For timetable html, remove padding and margin with black background */
-.timetable-bk {
-    margin: 0;
-    padding: 0;
-    background-color: black;
+.table-background {
+      background-color: rgba(69, 69, 69, 1);
+      display: flex;
+      height: 100%;
 }
+
 
 
