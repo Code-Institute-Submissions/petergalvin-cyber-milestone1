@@ -27,15 +27,16 @@ for the demographic they wish to attract. However, price levels can be inferred 
 ## Structure
 All pages should boldly illustrate the Gym culture and its values where possible. Gym pictures should demonstrate something new and exciting.
 The landing page should display an unconventional and aggressive mission statement that entices the user to investigate further.
-The users should be led to the Gym 'concept' and 'joining' pages so that members are attracted by its culture and want to join. 
-The trainers should be cheeky, fun and physically impressive. Gym contact details are readily available.  
+The users should be led to the Gym 'concept' and 'Contact Us' pages so that members are attracted by its culture and want to join. 
+The trainers should be cheeky, fun and physically impressive. Gym contact details are readily available in the footer. The Navbar should
+allow easy site navigation.  
 
 ## Skeleton
-[WireFrame - Landing Page](assets/images/WireFrame-Index.jpg)
+[WireFrame - Landing Page](WireFrames/WireFrame-Index.jpg)
 
-[WireFrame - Concept](assets/images/WireFrame-Concept.jpg)
+[WireFrame - Concept](WireFrames/WireFrame-Concept.jpg)
 
-[WireFrame - Trainers](assets/images/WireFrame-Trainers.jpg)
+[WireFrame - Trainers](WireFrames/WireFrame-Trainers.jpg)
 
 
 ## Surface
@@ -55,9 +56,10 @@ and tips for members also. Future version would sell health food and clothing ra
 
 # Testing 
 The 'Concept' page describes the training concepts usings cards. The cards are responsive with photos and descriptions which 
-are consistent with the Gym culture. The navbar enables the user to hop to other pages easily. 
+are consistent with the Gym culture. The navbar enables the user to hop to other pages easily. Clicking on the Perfection Gym name
+also permits navigation to the home page. 
 
-The 'Joining' option is always available. The 'Joining' form will not be submitted unless entries are valid. 
+The 'Contact Us' form will not be submitted unless entries are valid. 
 The form requests a full name rather than separate first name and surname for a better UX. 
 
 The timetable page displays class times and uses Bootstraps responsive Table class to acheive this. 
@@ -66,8 +68,7 @@ The trainer page also used Bootstrap cards to showcase the trainers. The cards s
 was unsightly. I resolved this through a solution found on Stack Overflow which rearranged the card stack rather than squeeze them. 
 The address on the Navbar disappears on reduced screen size to make the index page more appealing.
 
-The 'JoinUs' page did not implement the black background color through class declaration and could only be 
-implemented using an inline 100% height value. An inline font size of 4em was used to override the standard h2 weighting
+An inline font size of 4em was used to override the standard h2 weighting
 for the 'PAIN is the REMEDY' banner. 
 
 
@@ -79,6 +80,9 @@ The HTML code was submitted to W3C Markup validation and yielded no issues.
 
 CSS code was submitted to jigsaw which highlighted that -ms-flex was an invalid call and that @import on line 6 was not permitted.
 I removed -ms-flex but retained the font import statement.
+
+## Deployment
+The site is hosted on Github and can be deployed by selecting the site in the 'Settings' option on GitHub pages.
 
 # Acknowledgements
 
