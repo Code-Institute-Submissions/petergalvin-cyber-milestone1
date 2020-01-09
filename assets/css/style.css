@@ -17,7 +17,8 @@ html,body {
       /* Format the Gym name */
 .name-format {
     font-family: "Roboto", 'Trebuchet MS';
-    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 30px;
     color: whitesmoke;
     
 }
@@ -57,11 +58,7 @@ html,body {
     list-style-type: none;
     text-decoration: none;  
 }
-.horizontal {
-    display:flex;
-    flex-direction: row;
-    
-}
+
 /* ----------------------------------------------- Index Page Foramt ---------------------------------------------*/
 
         /* Import Banner image and display across the whole screen */ 
@@ -149,9 +146,9 @@ form {
 }
 
 .form-head-mg {
-background-color: black;
-margin-bottom: 3em;
-color:white;
+     background-color: black;
+     margin-bottom: 3em;
+     color:white;
 }
 
 
@@ -179,10 +176,24 @@ color:white;
 /* ----------------------------------------- Timetable page styling -------------------------------------------*/
 
 .table-background {
-      background-color: rgba(69, 69, 69, 1);
-      display: flex;
-      height: 100%;
+      background-color: black;
+      height: 100%
+    
 }
 
+.table-text {
+    background-color: black;
+    color: White;
+    
+}
+
+#bullet-remove {
+    list-style-type:none;
+}
+
+.image-style {
+    margin: 5px 16px 16px 16px;
+    padding: 5px 40px 40px 40px;
+}
 
 
